@@ -1,0 +1,14 @@
+export(dihs)
+export(pihs)
+export(qihs)
+export(rihs)
+export(ihs.mle)
+
+importFrom(maxLik, maxLik)
+
+S3method(summary, MLE)
+S3method(print, summary.MLE)
+S3method(print, mult.MLE)
+S3method(summary, mult.MLE)
+S3method(print, summary.mult.MLE)
+
